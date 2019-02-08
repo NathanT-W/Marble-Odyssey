@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 3591948847
+    locked: 0
+  - name: Button
+    uniqueID: 1194436589
+    locked: 0
+  - name: Player
+    uniqueID: 1230284387
+    locked: 0
+  - name: Spikes
+    uniqueID: 2176897241
+    locked: 0
+  - name: Wall
+    uniqueID: 356886911
+    locked: 0
