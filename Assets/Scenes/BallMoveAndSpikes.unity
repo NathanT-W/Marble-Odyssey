@@ -1336,6 +1336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b033d906930ad654fb9581fc0bb2b9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spikeDamage: 0
 --- !u!61 &945686343
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1782,8 +1783,9 @@ GameObject:
   - component: {fileID: 1310968645}
   - component: {fileID: 1310968644}
   - component: {fileID: 1310968646}
-  - component: {fileID: 1310968647}
   - component: {fileID: 1310968648}
+  - component: {fileID: 1310968647}
+  - component: {fileID: 1310968649}
   m_Layer: 0
   m_Name: Ballx32
   m_TagString: Untagged
@@ -1903,6 +1905,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.16
+--- !u!114 &1310968649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310968643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d03a9b08f923d4cbb08b9c4c2f4ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  marbleHealth: 0
 --- !u!1 &1331854376
 GameObject:
   m_ObjectHideFlags: 0

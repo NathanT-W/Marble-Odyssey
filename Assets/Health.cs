@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spiker : MonoBehaviour
+public class Health : MonoBehaviour
 {
-    public int spikeDamage;
+    public int marbleHealth;
+
     // Start is called before the first frame update
     void Start()
     {
-        spikeDamage = 2;
+        marbleHealth = 1;
     }
 
     // Update is called once per frame
