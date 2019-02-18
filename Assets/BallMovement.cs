@@ -28,4 +28,12 @@ public class BallMovement : MonoBehaviour
         rb.AddForce(movement * Speed);
 
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Wallx32")
+        {
+
+        }
+    }
 }
