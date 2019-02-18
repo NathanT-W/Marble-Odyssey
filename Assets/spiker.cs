@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class spiker : MonoBehaviour
 {
-    public int spikeDamage;
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        spikeDamage = 2;
+        if (collision.gameObject.name == "Ballx32")
+        {
+            Destroy(collision.gameObject);
+        }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
