@@ -37,7 +37,7 @@ public class BallMovement : MonoBehaviour
     {
         if (collision.gameObject.name == "Wallx32")
         {
-            
+            Speed = Speed;
         }
     }
 }
