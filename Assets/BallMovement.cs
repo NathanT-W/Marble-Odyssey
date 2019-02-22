@@ -8,23 +8,26 @@ public class BallMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private float hMove = Input.GetAxis("Horizontal");
-    private float vMove = Input.GetAxis("Vertical");
-
-    private Vector2 movement;
+    
 
     // Start is called before the first frame update
     void Start()
     {
 
-        rb = GetComponent<Rigidbody2D>();
+    
+
+    rb = GetComponent<Rigidbody2D>();
         
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        movement = new Vector2(hMove, vMove);
+
+        float hMove = Input.GetAxis("Horizontal");
+        float vMove = Input.GetAxis("Vertical");
+
+        Vector2 movement = new Vector2(hMove, vMove);
 
         rb.AddForce(movement * Speed);
 
@@ -34,7 +37,7 @@ public class BallMovement : MonoBehaviour
     {
         if (collision.gameObject.name == "Wallx32")
         {
-            rb.AddForce((movement * Speed) * - 0.8);
+            
         }
     }
 }
