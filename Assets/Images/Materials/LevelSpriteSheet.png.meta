@@ -21,6 +21,35 @@ TextureImporter:
     21300032: inactiveWire_TJunctionSprite
     21300034: inactiveWire_TopRightCornerSprite
     21300036: inactiveWire_XJunctionSprite
+    21300038: wallLine_Sprite
+    21300040: wallCornerSmall_Sprite
+    21300042: wallCornerLarge_Sprite
+    21300044: wallLargeTJunction_Sprite
+    21300046: wallCenter_Sprite
+    21300048: wallCenterEnd_Sprite
+    21300050: wallCornersBoth_Sprite
+    21300052: emptySpace1_Sprite
+    21300054: wall3Corners_Sprite
+    21300056: wallXCorners_Sprite
+    21300058: wallTJunction_Sprite
+    21300060: wallLJunction_Sprite
+    21300062: emptySpace2_Sprite
+    21300064: oldUnactivatedButton_Sprite
+    21300066: oldActivatedButton_Sprite
+    21300068: spikes_Sprite
+    21300070: door_Sprite
+    21300072: activeWireLine_Sprite
+    21300074: activeWireTJunction_Sprite
+    21300076: activeWireCorner_Sprite
+    21300078: activeWireXJunction_Sprite
+    21300080: unactivatedButton_Sprite
+    21300082: activatedButton_Sprite
+    21300084: inactiveWireLine_Sprite
+    21300086: inactiveWireTJunction_Sprite
+    21300088: inactiveWireCorner_Sprite
+    21300090: inactiveWireXJunction_Sprite
+    21300092: ball01_Sprite
+    21300094: ball02_Sprite
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -103,7 +132,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_LeftVerticalSprite
+      name: wallLine_Sprite
       rect:
         serializedVersion: 2
         x: 0
@@ -111,19 +140,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa0aca164eeb284498ea8835a1bb7b81
+      spriteID: 727ebf4426f849444a100009551ad150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_BottomLeftCorner02Sprite
+      name: wallCornerSmall_Sprite
       rect:
         serializedVersion: 2
         x: 32
@@ -131,19 +160,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e063f21681bf503419fa5e79b31d4890
+      spriteID: 9ae3d44fb5a3dc646b14b532fb5c521f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_TopRightCorner01Sprite
+      name: wallCornerLarge_Sprite
       rect:
         serializedVersion: 2
         x: 64
@@ -151,19 +180,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 544bbfe4efca90d4db34e16daa510aa1
+      spriteID: 2a5618b89007e1f4e9616ae970e87caf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_TJuctionSprite
+      name: wallLargeTJunction_Sprite
       rect:
         serializedVersion: 2
         x: 96
@@ -171,19 +200,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c5a63c9d81e2dc4ea76886b75f2a034
+      spriteID: 5c12bc6de7b31b24693fd4bc11dd04e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_HorizontalBothSprite
+      name: wallCenter_Sprite
       rect:
         serializedVersion: 2
         x: 128
@@ -191,19 +220,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba967a1254e110b4a8281322da3aed22
+      spriteID: 7f1da93a74aeba042a75a80bcd99e8a9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_BottomSprite
+      name: wallCenterEnd_Sprite
       rect:
         serializedVersion: 2
         x: 160
@@ -211,19 +240,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae537e5225d54f04f86972483f5155df
+      spriteID: 826b40fd5a549b648a54001ccdf94b28
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_BottomLeftCorner01Sprite
+      name: wallCornersBoth_Sprite
       rect:
         serializedVersion: 2
         x: 192
@@ -231,19 +260,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1fe146640aafd3439f8a86001790724
+      spriteID: 6e1081a1c37195f43afe9fe55de0b3b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_EmptyWallSprite
+      name: emptySpace1_Sprite
       rect:
         serializedVersion: 2
         x: 224
@@ -251,19 +280,119 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e05a55baca3455c49a47defbfc605b01
+      spriteID: cc6702150c690744e9a50514407512fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_01Sprite
+      name: wall3Corners_Sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e9b0d0540dd15429e833761fa962aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallXCorners_Sprite
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371eb91e68494c468c6e7515d673a5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallTJunction_Sprite
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bf83669ea443d4a92814907715d882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallLJunction_Sprite
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0e7efc47a7ac6409636976f58942b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptySpace2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307d3c6befecc5a4ebbf9a071f5a7f17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldUnactivatedButton_Sprite
       rect:
         serializedVersion: 2
         x: 0
@@ -271,19 +400,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90ab8ba053ad0ae4e8794436f73fc760
+      spriteID: 0d90c445e494e2546a8a0af3ee26048c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_02Sprite
+      name: oldActivatedButton_Sprite
       rect:
         serializedVersion: 2
         x: 32
@@ -291,13 +420,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b1b581924e7cf540b5a07f94379ad25
+      spriteID: a4f72aa3bd21c944681250dac8f873db
       vertices: []
       indices: 
       edges: []
@@ -311,19 +440,39 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49149ede7af0af94fb583fd25c72f8fe
+      spriteID: c874a890fdae48c40b80b770010ea5d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: activeWire_HorizontalSprite
+      name: door_Sprite
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212bd9c95d770384b963365c0a7ae7e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activeWireLine_Sprite
       rect:
         serializedVersion: 2
         x: 128
@@ -331,19 +480,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9502b066505b444c80a06bc14d07bc8
+      spriteID: 17f4f4cf796c61847afe65c59e5f44c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: activeWire_TJunctionSprite
+      name: activeWireTJunction_Sprite
       rect:
         serializedVersion: 2
         x: 160
@@ -351,19 +500,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1c151e768e7c6440abb1909a8c56841
+      spriteID: 28c5c011ef521834b960b1ac53a22334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: activeWire_TopRightCornerSprite
+      name: activeWireCorner_Sprite
       rect:
         serializedVersion: 2
         x: 192
@@ -371,19 +520,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43db6d845fd4454448a36d9f43933060
+      spriteID: ca02a4e3321ac2448a874e85712a3d59
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: activeWire_XJunctionSprite
+      name: activeWireXJunction_Sprite
       rect:
         serializedVersion: 2
         x: 224
@@ -391,19 +540,59 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7184f282402b55944a8f68663a9fdb57
+      spriteID: f112cbb568ead6642ae14b827c623214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inactiveWire_HorizontalSprite
+      name: unactivatedButton_Sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa2eda8fa9bd34db17c7a73944efed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activatedButton_Sprite
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1b3490577a78c48a64a356e3e46987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inactiveWireLine_Sprite
       rect:
         serializedVersion: 2
         x: 128
@@ -411,19 +600,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1658283887b1b648b2bb4cc94f38e15
+      spriteID: 3f6c91858fc48e34782ebb32dcf906f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inactiveWire_TJunctionSprite
+      name: inactiveWireTJunction_Sprite
       rect:
         serializedVersion: 2
         x: 160
@@ -431,19 +620,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e536305e882ee248bee5a668031d2bc
+      spriteID: 03cdb2cd5bf2dcf46b5aa1605ee2ecf4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inactiveWire_TopRightCornerSprite
+      name: inactiveWireCorner_Sprite
       rect:
         serializedVersion: 2
         x: 192
@@ -451,19 +640,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11aea83d70b94614d954531fb6d300a7
+      spriteID: 77c1eaeb9bcebf9468298358b8468da5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: inactiveWire_XJunctionSprite
+      name: inactiveWireXJunction_Sprite
       rect:
         serializedVersion: 2
         x: 224
@@ -471,13 +660,53 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f68be49896c5c740afcecbcfbf30692
+      spriteID: 8ea8417f9f357da49b4d66fd85777fd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball01_Sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99b017e0fc99d540b067cce3b253d16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball02_Sprite
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270cb7272703e354d8ed62fb1c092caa
       vertices: []
       indices: 
       edges: []
