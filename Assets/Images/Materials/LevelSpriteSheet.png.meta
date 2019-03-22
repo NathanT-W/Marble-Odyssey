@@ -50,6 +50,8 @@ TextureImporter:
     21300090: inactiveWireXJunction_Sprite
     21300092: ball01_Sprite
     21300094: ball02_Sprite
+    21300096: exitLevel_Sprite
+    21300098: portal_Sprite
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -707,6 +709,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 270cb7272703e354d8ed62fb1c092caa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exitLevel_Sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b93983840a6ba4f860e70dd93a7aa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal_Sprite
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 65
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c24bb236231e604b9149a84d04327d3
       vertices: []
       indices: 
       edges: []
