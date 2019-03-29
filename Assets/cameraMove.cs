@@ -13,6 +13,15 @@ public class cameraMove : MonoBehaviour
         
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "ball02_Sprite")
+        {
+            Destroy(collision.gameObject);
+            Debug.Log("FUCKING WORK");
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -8,7 +8,7 @@ public class BallMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private bool cutsceneMode = false;
+    public bool cutsceneMode = false;
 
     
 
@@ -22,17 +22,27 @@ public class BallMovement : MonoBehaviour
         
     }
 
+    public bool CutsceneModeOn()
+    {
+        return cutsceneMode = true;
+    }
+
+    public bool CutsceneModeOff()
+    {
+        return cutsceneMode = false;
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.J))
         {
-            cutsceneMode = true;
+            CutsceneModeOn();
         }
 
         if (Input.GetKey(KeyCode.Y))
         {
-            cutsceneMode = false;
+            CutsceneModeOff();
         }
 
 
