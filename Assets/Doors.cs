@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Doors : MonoBehaviour
 {
-    Animator animator;
+    public Animator animator;
     bool doorOpen;
 
     public void Start()
@@ -15,7 +15,7 @@ public class Doors : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Ballx32")
+        if (collision.gameObject.name == "Ballx32")
         {
             doorOpen = true;
             DoorState("Open");
