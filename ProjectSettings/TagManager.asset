@@ -60,3 +60,6 @@ TagManager:
   - name: Wall
     uniqueID: 356886911
     locked: 0
+  - name: Wires
+    uniqueID: 1862538941
+    locked: 0
