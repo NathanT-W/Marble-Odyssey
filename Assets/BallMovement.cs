@@ -8,6 +8,8 @@ public class BallMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private bool cutsceneMode = false;
+
     
 
     // Start is called before the first frame update
@@ -23,21 +25,26 @@ public class BallMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (Input.GetKey(KeyCode.J))
+        {
+            cutsceneMode = true;
+        }
+
+        if (Input.GetKey(KeyCode.Y))
+        {
+            cutsceneMode = false;
+        }
+
 
         float hMove = Input.GetAxis("Horizontal");
         float vMove = Input.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(hMove, vMove);
 
-        rb.AddForce(movement * Speed);
-
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.name == "Wallx32")
-        {
-            Speed = Speed;
+        if (!(cutsceneMode == true)) {
+            rb.AddForce(movement * Speed);
         }
     }
+
+    
 }

@@ -24,7 +24,6 @@ public class CameraSizeInPixels : MonoBehaviour
     {
         Camera camera = GetComponent<Camera>();
 
-       // Vector3 roundPos = new Vector3(RoundToNearestPixel(newPos.x, camera), RoundToNearestPixel(newPos.y, camera), newPos.z);
-        //transform.position = roundPos;
+
     }
 }

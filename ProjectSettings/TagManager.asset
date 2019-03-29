@@ -54,6 +54,12 @@ TagManager:
   - name: Spikes
     uniqueID: 2176897241
     locked: 0
+  - name: Door
+    uniqueID: 340327537
+    locked: 0
   - name: Wall
     uniqueID: 356886911
+    locked: 0
+  - name: Wires
+    uniqueID: 1862538941
     locked: 0
