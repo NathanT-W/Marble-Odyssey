@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ballx32
   layers:
   - Default
   - TransparentFX
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: Spikes
     uniqueID: 2176897241
+    locked: 0
+  - name: Door
+    uniqueID: 340327537
     locked: 0
   - name: Wall
     uniqueID: 356886911
