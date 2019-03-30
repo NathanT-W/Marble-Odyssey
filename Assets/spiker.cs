@@ -8,7 +8,7 @@ public class spiker : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            collision.gameObject.transform.position = new Vector3Int(-17,4,1);
+            collision.gameObject.transform.position = new Vector3Int(-11,-4,1);
         }
     }
     
