@@ -17,8 +17,7 @@ public class cameraMove : MonoBehaviour
     {
         if (collision.gameObject.name == "ball02_Sprite")
         {
-            Destroy(collision.gameObject);
-            Debug.Log("FUCKING WORK");
+            transform.position = new Vector3Int(-14, 0, -10);
         }
     }
 

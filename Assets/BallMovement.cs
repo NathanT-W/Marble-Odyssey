@@ -8,52 +8,40 @@ public class BallMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    public bool cutsceneMode = false;
-
+    public bool cutMode = false;
     
 
     // Start is called before the first frame update
     void Start()
     {
 
-    
-
     rb = GetComponent<Rigidbody2D>();
         
     }
 
-    public bool CutsceneModeOn()
+    void cutModeOn()
     {
-        return cutsceneMode = true;
+        cutMode = true;
     }
 
-    public bool CutsceneModeOff()
+    void cutModeOff()
     {
-        return cutsceneMode = false;
+        cutMode = false;
     }
+
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.J))
-        {
-            CutsceneModeOn();
-        }
-
-        if (Input.GetKey(KeyCode.Y))
-        {
-            CutsceneModeOff();
-        }
-
-
         float hMove = Input.GetAxis("Horizontal");
         float vMove = Input.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(hMove, vMove);
 
-        if (!(cutsceneMode == true)) {
-            rb.AddForce(movement * Speed);
-        }
+       
+        rb.AddForce(movement * Speed);
+        
     }
 
     
