@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Doors : MonoBehaviour
+public class DoorShut : MonoBehaviour
 {
     public Animator animator;
     bool doorOpen;
-   
+
+  
 
     public void Start()
     {
@@ -18,13 +19,13 @@ public class Doors : MonoBehaviour
     {
         if (collision.gameObject.name == "Ballx32")
         {
-            doorOpen = true;
-            DoorState("Open");
+            doorOpen = false;
+            DoorState("Close");
         }
     }
 
-    public void DoorState(string Open)
+    public void DoorState(string Close)
     {
-        animator.SetTrigger(Open);
+        animator.SetTrigger(Close);
     }
 }
