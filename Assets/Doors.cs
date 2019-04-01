@@ -11,6 +11,11 @@ public class Doors : MonoBehaviour
 
     public GameObject activeWires;
 
+    public GameObject thisDoor;
+
+
+
+
     public void Start()
     {
         doorOpen = false;
@@ -26,6 +31,8 @@ public class Doors : MonoBehaviour
 
             inactiveWires.SetActive(false);
             activeWires.SetActive(true);
+
+            thisDoor.GetComponent<BoxCollider2D>().isTrigger = false;
         }
     }
 

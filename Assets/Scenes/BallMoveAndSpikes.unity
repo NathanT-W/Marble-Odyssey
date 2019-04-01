@@ -9331,6 +9331,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   inactiveWires: {fileID: 753591670}
   activeWires: {fileID: 1065051999}
+  thisDoor: {fileID: 1431326606}
 --- !u!1 &1432836802
 GameObject:
   m_ObjectHideFlags: 0
