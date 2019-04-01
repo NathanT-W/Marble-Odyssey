@@ -7,6 +7,10 @@ public class Doors : MonoBehaviour
     public Animator animator;
     bool doorOpen;
 
+    public GameObject inactiveWires;
+
+    public GameObject activeWires;
+
     public void Start()
     {
         doorOpen = false;
@@ -15,10 +19,13 @@ public class Doors : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Ballx32")
+        if (collision.gameObject.name == "Player")
         {
             doorOpen = true;
-            DoorState("Open");
+            //DoorState("Open");
+
+            inactiveWires.SetActive(false);
+            activeWires.SetActive(true);
         }
     }
 
