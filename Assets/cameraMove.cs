@@ -19,14 +19,14 @@ public class cameraMove : MonoBehaviour
     {
         if (collision.gameObject.name == "Player" && checkPointPosition == 0)
         {
-            
-            transform.position = new Vector3Int(-8, 0, -10);
+            collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
+            transform.position = new Vector3(-8.17f, 0, -10);
         }
 
         if (collision.gameObject.name == "Player" && checkPointPosition == 1)
         {
-            
-            transform.position = new Vector3Int(-4, 0, -10);
+            collision.gameObject.transform.position = new Vector3(-4.25866f, -4.119288f, 1);
+            transform.position = new Vector3(-1.17f, 0, -10);
         }
         checkPointPosition += 1;
     }
