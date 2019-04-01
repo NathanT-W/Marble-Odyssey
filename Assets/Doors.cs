@@ -6,6 +6,7 @@ public class Doors : MonoBehaviour
 {
     public Animator animator;
     bool doorOpen;
+   
 
     public GameObject inactiveWires;
 
