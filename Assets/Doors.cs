@@ -5,11 +5,15 @@ using UnityEngine;
 public class Doors : MonoBehaviour
 {
     public Animator animator;
-    bool doorOpen;
+    public bool doorOpen;
 
     public GameObject inactiveWires;
 
     public GameObject activeWires;
+
+    public GameObject inactiveButton;
+
+    public GameObject activeButton;
 
     public void Start()
     {
@@ -21,16 +25,28 @@ public class Doors : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            doorOpen = true;
-            //DoorState("Open");
+            if (doorOpen == false)
+            {
+                doorOpen = true;
+                DoorState("Open");
 
-            inactiveWires.SetActive(false);
-            activeWires.SetActive(true);
+                inactiveWires.SetActive(false);
+                activeWires.SetActive(true);
+                activeButton.SetActive(true);
+                inactiveButton.SetActive(false);
+
+            }
+
+            if (collision.gameObject.transform.position.x > 12f)
+            {
+                activeWires.SetActive(false);
+            }
+
         }
     }
 
-    public void DoorState(string Open)
+    public void DoorState(string Direction)
     {
-        animator.SetTrigger(Open);
+        animator.SetTrigger(Direction);
     }
 }

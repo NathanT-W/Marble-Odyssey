@@ -5,7 +5,7 @@ using UnityEngine;
 public class cameraMove : MonoBehaviour
 {
 
-    
+    public GameObject activeWires;
 
     private int checkPointPosition = 0;
 
@@ -20,7 +20,8 @@ public class cameraMove : MonoBehaviour
         if (collision.gameObject.name == "Player" && checkPointPosition == 0)
         {
             collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
-            transform.position = new Vector3(-8.17f, 0, -10);
+            transform.position = new Vector3(-9.17f, 0, -10);
+            activeWires.SetActive(false);
         }
 
         if (collision.gameObject.name == "Player" && checkPointPosition == 1)
