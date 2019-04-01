@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Collections;
+=======
+﻿using System.Collections;
+>>>>>>> parent of 35b96b2... Fix the mess
 =======
 ﻿using System.Collections;
 >>>>>>> parent of 35b96b2... Fix the mess
@@ -10,7 +14,11 @@ public class cameraMove : MonoBehaviour
 {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject activeWires;
+=======
+    
+>>>>>>> parent of 35b96b2... Fix the mess
 =======
     
 >>>>>>> parent of 35b96b2... Fix the mess
@@ -29,8 +37,12 @@ public class cameraMove : MonoBehaviour
         {
             collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
             transform.position = new Vector3(-9.17f, 0, -10);
             activeWires.SetActive(false);
+=======
+            transform.position = new Vector3(-8.17f, 0, -10);
+>>>>>>> parent of 35b96b2... Fix the mess
 =======
             transform.position = new Vector3(-8.17f, 0, -10);
 >>>>>>> parent of 35b96b2... Fix the mess

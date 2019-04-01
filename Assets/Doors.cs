@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Collections;
+=======
+﻿using System.Collections;
+>>>>>>> parent of 35b96b2... Fix the mess
 =======
 ﻿using System.Collections;
 >>>>>>> parent of 35b96b2... Fix the mess
@@ -10,7 +14,12 @@ public class Doors : MonoBehaviour
 {
     public Animator animator;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool doorOpen;
+=======
+    bool doorOpen;
+   
+>>>>>>> parent of 35b96b2... Fix the mess
 =======
     bool doorOpen;
    
@@ -21,14 +30,20 @@ public class Doors : MonoBehaviour
     public GameObject activeWires;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject inactiveButton;
 
     public GameObject activeButton;
 =======
+=======
+>>>>>>> parent of 35b96b2... Fix the mess
     public GameObject thisDoor;
 
 
 
+<<<<<<< HEAD
+>>>>>>> parent of 35b96b2... Fix the mess
+=======
 >>>>>>> parent of 35b96b2... Fix the mess
 
     public void Start()
@@ -41,6 +56,7 @@ public class Doors : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (doorOpen == false)
             {
@@ -66,6 +82,8 @@ public class Doors : MonoBehaviour
     {
         animator.SetTrigger(Direction);
 =======
+=======
+>>>>>>> parent of 35b96b2... Fix the mess
             doorOpen = true;
             //DoorState("Open");
 
@@ -79,6 +97,9 @@ public class Doors : MonoBehaviour
     public void DoorState(string Open)
     {
         animator.SetTrigger(Open);
+<<<<<<< HEAD
+>>>>>>> parent of 35b96b2... Fix the mess
+=======
 >>>>>>> parent of 35b96b2... Fix the mess
     }
 }
