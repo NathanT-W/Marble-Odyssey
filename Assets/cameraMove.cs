@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 using System.Collections;
+=======
+﻿using System.Collections;
+>>>>>>> parent of 35b96b2... Fix the mess
 using System.Collections.Generic;
 using UnityEngine;
 
 public class cameraMove : MonoBehaviour
 {
 
+<<<<<<< HEAD
     public GameObject activeWires;
+=======
+    
+>>>>>>> parent of 35b96b2... Fix the mess
 
     private int checkPointPosition = 0;
 
@@ -20,8 +28,12 @@ public class cameraMove : MonoBehaviour
         if (collision.gameObject.name == "Player" && checkPointPosition == 0)
         {
             collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
+<<<<<<< HEAD
             transform.position = new Vector3(-9.17f, 0, -10);
             activeWires.SetActive(false);
+=======
+            transform.position = new Vector3(-8.17f, 0, -10);
+>>>>>>> parent of 35b96b2... Fix the mess
         }
 
         if (collision.gameObject.name == "Player" && checkPointPosition == 1)

@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5ebfd0f9b42e8af4bb9f5028efa348bc
   - enabled: 1
-    path: Assets/Scenes/BallMoveAndSpikes.unity
-    guid: e53d1f35bd019a6449ae9a94e174b014
-  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 822777b669d4b59458457655073b6509
   - enabled: 1
