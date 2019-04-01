@@ -8,7 +8,20 @@ public class spiker : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            collision.gameObject.transform.position = new Vector3Int(-17,4,1);
+
+            if (collision.gameObject.transform.position.x >= -12f && collision.gameObject.transform.position.x <= -4f)
+            {
+                collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
+            }
+
+            if (collision.gameObject.transform.position.x >= -4f && collision.gameObject.transform.position.x <= 1f)
+            {
+                collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
+            }
+
+
+
+
         }
     }
     
