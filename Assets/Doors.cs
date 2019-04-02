@@ -13,6 +13,10 @@ public class Doors : MonoBehaviour
 
     public GameObject thisDoor;
 
+    public GameObject inactiveButton;
+
+    public GameObject activeButton;
+
 
     public void Start()
     {
@@ -31,6 +35,8 @@ public class Doors : MonoBehaviour
 
                 inactiveWires.SetActive(false);
                 activeWires.SetActive(true);
+                activeButton.SetActive(false);
+                inactiveButton.SetActive(true);
             }
 
         }

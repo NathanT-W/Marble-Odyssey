@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5ebfd0f9b42e8af4bb9f5028efa348bc
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 822777b669d4b59458457655073b6509
+    path: Assets/Scenes/BallMoveAndSpikes.unity
+    guid: e53d1f35bd019a6449ae9a94e174b014
   - enabled: 1
     path: Assets/Scenes/Exit1.unity
     guid: 1078ec0f54f8fc444b9afc61c1bd9266
   - enabled: 1
     path: Assets/Scenes/Exit2.unity
     guid: c3c2823f9ef4d5a41916fb3e4bbff61d
+  - enabled: 0
+    path: Assets/Scenes/Game.unity
+    guid: 822777b669d4b59458457655073b6509
   m_configObjects: {}
