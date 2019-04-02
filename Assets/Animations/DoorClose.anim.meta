@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fileFormatVersion: 2
 guid: f751894a9e9bffb488de295770a8d64a
 NativeFormatImporter:
@@ -7,13 +6,3 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-fileFormatVersion: 2
-guid: f751894a9e9bffb488de295770a8d64a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>> parent of 35b96b2... Fix the mess

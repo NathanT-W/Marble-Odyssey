@@ -20,15 +20,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-        value: {x: 0, y: 1.01, z: 0}
-=======
         value: {x: 1.291662, y: -0.49, z: 0}
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-        value: {x: 1.291662, y: -0.49, z: 0}
->>>>>>> parent of 35b96b2... Fix the mess
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -37,15 +29,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-        value: {x: 0, y: 0.03, z: 0}
-=======
         value: {x: 1.291662, y: -1.5, z: 0}
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-        value: {x: 1.291662, y: -1.5, z: 0}
->>>>>>> parent of 35b96b2... Fix the mess
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -84,15 +68,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_LoopTime: 0
-=======
     m_LoopTime: 1
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-    m_LoopTime: 1
->>>>>>> parent of 35b96b2... Fix the mess
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -108,15 +84,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-        value: 0
-=======
         value: 1.291662
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-        value: 1.291662
->>>>>>> parent of 35b96b2... Fix the mess
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -125,15 +93,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-        value: 0
-=======
         value: 1.291662
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-        value: 1.291662
->>>>>>> parent of 35b96b2... Fix the mess
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -152,15 +112,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-        value: 1.01
-=======
         value: -0.49
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-        value: -0.49
->>>>>>> parent of 35b96b2... Fix the mess
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -169,15 +121,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-        value: 0.03
-=======
         value: -1.5
->>>>>>> parent of 35b96b2... Fix the mess
-=======
-        value: -1.5
->>>>>>> parent of 35b96b2... Fix the mess
         inSlope: 0
         outSlope: 0
         tangentMode: 136
