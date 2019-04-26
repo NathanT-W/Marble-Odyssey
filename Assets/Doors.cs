@@ -12,6 +12,8 @@ public class Doors : MonoBehaviour
 
     public GameObject activeWires;
 
+
+
     public void Start()
     {
         doorOpen = false;
@@ -27,6 +29,7 @@ public class Doors : MonoBehaviour
 
             inactiveWires.SetActive(false);
             activeWires.SetActive(true);
+
         }
     }
 
