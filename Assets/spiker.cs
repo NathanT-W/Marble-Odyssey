@@ -9,14 +9,14 @@ public class spiker : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
 
-            if (collision.gameObject.transform.position.x >= -12f && collision.gameObject.transform.position.x <= -4f)
+            if (collision.gameObject.transform.position.x >= -12f && collision.gameObject.transform.position.x <= -5f)
             {
                 collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
             }
 
-            if (collision.gameObject.transform.position.x >= -4f && collision.gameObject.transform.position.x <= 1f)
+            if (collision.gameObject.transform.position.x >= -5f && collision.gameObject.transform.position.x <= 0f)
             {
-                collision.gameObject.transform.position = new Vector3(-11.17241f, -4.119288f, 1);
+                collision.gameObject.transform.position = new Vector3(-5.28f, 3.845531f, 1);
             }
 
 

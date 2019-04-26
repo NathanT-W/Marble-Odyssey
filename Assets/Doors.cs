@@ -7,11 +7,15 @@ public class Doors : MonoBehaviour
     public Animator animator;
     bool doorOpen;
    
-
     public GameObject inactiveWires;
 
     public GameObject activeWires;
 
+    public GameObject thisDoor;
+
+    public GameObject inactiveButton;
+
+    public GameObject activeButton;
 
 
     public void Start()
@@ -24,11 +28,16 @@ public class Doors : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            doorOpen = true;
-            //DoorState("Open");
+            if (doorOpen == false)
+            {
+                doorOpen = true;
+                DoorState("Open");
 
-            inactiveWires.SetActive(false);
-            activeWires.SetActive(true);
+                inactiveWires.SetActive(false);
+                activeWires.SetActive(true);
+                activeButton.SetActive(false);
+                inactiveButton.SetActive(true);
+            }
 
         }
     }
